@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.caja_bloque {
+  text-align: center;
+  background-color: #acacac;
+  padding: 2em 4em 4em 6em;
+  max-width: 60em;
+}
+
+.bloque_añadir {
+  background-color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 2em;
+  margin: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.texto_añadir {
+  width: 30em;
+  height: 2em;
+}
+
+.añadir {
+  margin: 0em 2em 0em 2em;
+  width: 6em;
+}
+
+.bloque_tareas {
+  background-color: #fff;
+  padding: 2em;
+  margin: 2em;
+}
+
+.lista_tareas {
+  padding: 2em;
+  margin: 2em;
+}
+
+.tarea {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eliminar {
+  margin: 0em 2em 0em 2em;
+  width: 6em;
+}
+/*# sourceMappingURL=style.css.map */
